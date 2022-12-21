@@ -1,0 +1,4 @@
+{:deps    {}
+ :aliases {:new {:extra-deps {aleph/aleph {:mvn/version "0.6.0"}}}
+           :old {:extra-deps {aleph/aleph {:mvn/version "0.4.7-alpha5"}}}
+           :run {:main-opts ["-m" "app.core"]}}}
